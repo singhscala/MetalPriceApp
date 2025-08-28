@@ -1,40 +1,28 @@
-# Metal Price App (React Native + Expo)
+# 📱 Metal Price App
 
-A React Native mobile app built with **Expo** that fetches real-time prices of Gold, Silver, and Platinum.  
-Users can view the latest rates, search metals, and check detailed information for each metal.
+A **React Native + Expo** mobile app that displays **real-time prices of Gold, Silver, and Platinum**.  
+Users can search for metals, view live rates, and navigate to detail screens with extended price information.
 
 ---
 
-## 🚀 Features
-- 📊 Live price updates of Gold, Silver, and Platinum (using [GoldAPI](https://www.goldapi.io/))
-- 🔍 Search bar to quickly find metals
-- 📱 Clean UI with tiles for each metal
-- 📄 Detail screen showing:
-  - Current Price
-  - Previous Close
-  - Open Price
-  - Date & Time
+## ✨ Features
+
+- 📊 **Live prices** of Gold, Silver, and Platinum (using [GoldAPI](https://www.goldapi.io/))  
+- 🔍 **Search bar** to filter metals easily  
+- 🖼️ **Home screen** showing price tiles for each metal  
+- 📄 **Detail screen** for each metal with:
+  - Current Price  
+  - Previous Close  
+  - Open Price  
+  - Date & Time  
 
 ---
 
 ## 🛠️ Tech Stack
-- [React Native](https://reactnative.dev/) (Expo)
-- [React Navigation](https://reactnavigation.org/)
-- [Axios](https://axios-http.com/) for API calls
+
+- [React Native](https://reactnative.dev/) (Expo)  
+- [Expo Router](https://expo.github.io/router/docs) for navigation  
+- [Axios](https://axios-http.com/) for API calls  
+- [GoldAPI](https://www.goldapi.io/) (or mock API)  
 
 ---
-
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/singhscala/metal-price-app.git
-   cd metal-price-app
-
-2.Install dependencies:
-    ```bash
-    npm install
-
-3.Start the project:
-    ```bash
-    npx expo start
