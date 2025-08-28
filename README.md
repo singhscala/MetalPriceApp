@@ -28,5 +28,13 @@ Users can view the latest rates, search metals, and check detailed information f
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/metal-price-app.git
+   git clone https://github.com/singhscala/metal-price-app.git
    cd metal-price-app
+
+2.Install dependencies:
+    ```bash
+    npm install
+
+3.Start the project:
+    ```bash
+    npx expo start
